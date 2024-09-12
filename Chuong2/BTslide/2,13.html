@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        form
+        {
+            width: 400px;
+            padding: 20px;
+            border: 1px solid #1b0202;
+        }
+       button
+       {
+        margin: 0.5cm;
+       }
+    </style>
+
+    <body>
+        <h1 style="color: rgb(167, 7, 7);text-align: center;"> Book a Table</h1>
+        <fieldset>
+            <legend>Yourname</legend>
+            <input type="text" id="name" required>
+        </fieldset>
+        <fieldset>
+            <legend>Sex</legend>
+            <input type="radio" name="sex" value="male"> Male
+            <input type="radio" name="sex" value="female" checked> Female    
+        </fieldset>
+    <fieldset>
+        <legend>Size</legend>
+        <input type="radio" name="size" value="2-person"> 2-person table
+            <input type="radio" name="size" value="4-person" checked> 4-person table
+            <input type="radio" name="size" value="6-person"> 6-person table
+    </fieldset>
+    <fieldset>
+        <legend>Location</legend>
+        <input type="radio" name="location" value="indoors"> Indoors
+        <input type="radio" name="location" value="outdoors" checked> Outdoors
+    </fieldset>
+    </body>
+    
+    <button style="margin-left: 150px ; "
+    type="submit">Book table</button>
+
+ 
+   
+</html>
